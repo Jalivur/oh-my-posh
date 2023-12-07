@@ -5,7 +5,7 @@
       "type": "rprompt",
       "segments": [
         {
-          "foreground": "#007ACC",
+          "foreground": "#a86e69",
           "properties": {
             "time_format": "15:04:05"
           },
@@ -19,7 +19,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#ffffff",
+          "background": "#831f1f",
           "foreground": "#100e23",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",

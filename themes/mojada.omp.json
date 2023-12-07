@@ -6,7 +6,7 @@
       "newline": true,
       "segments": [
         {
-          "background": "#fbfbfb",
+          "background": "#aa6f69",
           "foreground": "#0077c2",
           "leading_diamond": "\ue0b6",
           "properties": {
@@ -25,8 +25,8 @@
           "type": "os"
         },
         {
-          "background": "#fbfbfb",
-          "foreground": "#0077c2",
+          "background": "#a53025",
+          "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "display_host": true
@@ -44,12 +44,12 @@
           "type": "root"
         },
         {
-          "background": "#0077c2",
-          "foreground": "#ffffff",
+          "background": "#476374",
+          "foreground": "#bdbaba",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "folder_separator_icon": "/",
-            "home_icon": "~",
+            "home_icon": "",
             "max_depth": 2,
             "style": "letter"
           },
@@ -65,7 +65,7 @@
             "{{ if gt .Ahead 0 }}#f17c37{{ end }}",
             "{{ if gt .Behind 0 }}#89d1dc{{ end }}"
           ],
-          "foreground": "#193549",
+          "foreground": "#0095ff",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "fetch_stash_count": true,
