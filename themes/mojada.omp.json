@@ -58,7 +58,7 @@
           "type": "path"
         },
         {
-          "background": "#ff5638",
+          "background": "#41c82c",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#ff9248{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#f26d50{{ end }}",
@@ -106,7 +106,7 @@
           "type": "executiontime"
         },
         {
-          "background": "#f36943",
+          "background": "#4caf50",
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
             "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
